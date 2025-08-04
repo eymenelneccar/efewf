@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: assets
+appId: com.eymen.erp
+productName: ERP Pro
+files:
+  - filter:
+      - dist/**/*
+      - main.cjs
+      - node_modules/**/*
+      - public/**/*
+      - client/**/*
+win:
+  target: nsis
+electronVersion: 37.2.5
